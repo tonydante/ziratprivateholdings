@@ -1,0 +1,18 @@
+.account-summary-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 100;
+}
+.update-form-cta {
+  margin-bottom: 3rem;
+}
+.update-form-cta .btn {
+   width: unset
+}
