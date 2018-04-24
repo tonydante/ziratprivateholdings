@@ -1,0 +1,89 @@
+@charset "utf-8";
+@import "https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2013/fonts/stylesheet.css"; /*add hinting, remove kerning, turkish, Macroman, (typo, math, diacritical disindakiler secili) DIN & Myriad*/
+/*
+font-family: 'gotham_narrowbold';
+font-family: 'gotham_narrowbook';
+font-family: 'gotham_narrowmedium';
+font-family: 'bookman_old_stylebold';
+font-family: 'tondoregular';
+*/
+body {
+	margin:0px; padding:0px;
+	background:#FF0514;
+	font-family: 'gotham_narrowbook'; font-size:13px;
+	color:#666;
+}
+
+*:focus {outline: 0;}
+form {display:inline;}
+img {border:none;}
+table, td {border-collapse:collapse;}
+p {margin: 0px 0px 10px 0px;}
+
+.kirmizi {color:#D20A11;}
+.turuncu {color:#F6921E;}
+.mavi {color:#00BFF2;}
+.grizemin {color:#EDEDED;}
+.griyazi {color:#555759;}
+.baslik {color:#EE3123; font-size:31px; font-family: 'gotham_narrowbold';}
+.footnote {font-size:11px; color:#999;}
+.solhilite {width:235px; position:absolute; left:-260px; font-family: 'bookman_old_stylebold'; font-size:18px; color:#000; line-height:19px;}
+.solhilite strong {color:#D20A11!important; font-weight:normal!important; font-family: 'bookman_old_stylebold'!important;}
+a.pdf {background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2013/images/pdf.png") no-repeat 0px 0px; padding-left:20px; padding-bottom:5px;}
+
+.tablo {width:100%;}
+.tablo td {border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:3px;}
+.tablo th {border-top:1px solid #D20A11; border-bottom:1px solid #D20A11; color:#D20A11; padding:3px; font-family: 'gotham_narrowmedium'; font-weight:normal;}
+.tablo th, .tablo th strong {xcolor:#E9294E!important; text-align:inherit;}
+.tablo td strong {color:#000!important;}
+.tablo p {margin:0px; padding:0px;}
+
+#tepe {width:980px; height:130px; margin:0 auto; position:relative; clear:both;}
+#logo {position:absolute; top:22px; left:0px;}
+#menuclosetrigger {position:absolute; width:980px; height:95px; top:0px; left:0px;}
+#yataymenu {position:absolute; width:510px; height:125px; left:470px; top:0px; background:none; border-bottom:4px solid #fff;}
+a.ylink {
+	margin:0 0px 0 0; display:block; padding:40px 15px 0 15px; float:left; width:140px; height:85px; text-align:center;
+	color:#fff; font-family: 'gotham_narrowmedium'; font-size:13px; text-decoration:none;
+}
+a.ylink:hover, a.aktif {background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2013/images/bg-pop.png") bottom left;}
+#ortaserit {background:#fff; width:100%; min-height:450px; clear:both;}
+#icerik {width:980px; margin:0 auto; padding:5px 0 15px 0;}
+#leftpanel {width:235px; margin:0 25px 0 0; float:left; background:#CCC;}
+#midpanel {margin-left:260px; position:relative; min-height:400px;}
+#midpanel strong {font-family: 'gotham_narrowmedium'; font-weight:normal; color:#000;}
+#midpanel .kirmizi {font-family: 'gotham_narrowmedium'; font-weight:normal; color:#D20A11;}
+#midpanel ul {margin:0px; padding:0px 0 0 13px;}
+ul.marjinli {margin:10px 0 10px 0!important;}
+
+#footer1 {float:left; text-align:left; margin:40px 0 0 20px; font-size:11px; color:#fff;}
+#footer2 {width:980px; float:left; margin:0 auto; padding-top:5px; margin-top:25px;}
+#footer2 a {color:#fff; text-decoration:none;}
+#footer3 {float:left; text-align:right; margin:40px 20px 0 0; font-size:11px; color:#fff; display:none;}
+#footer3 a {color:#fff; text-decoration:none;}
+
+#footernav {float:right; width:510px; border-top:4px solid #fff;}
+#footernav a {width:170px; display:block; float:left; text-align:center; padding:15px 0 15px 0;}
+#footernav a:hover {background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2013/images/bg-pop.png") bottom left;}
+
+#popupmenu {width:511px; height:350px; background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2013/images/bg-pop.png") bottom left; position:absolute; z-index:6000; display:none; top:129px; left:0px;}
+.menuwrapper {width:500px; position:absolute; display:none; top:15px;}
+#wrapper3 {width:500px;}
+.menuitem a {display:block; padding:1px 0px 4px 22px; color:#fff; font-family: 'gotham_narrowbook'; font-size:13px; text-decoration:none; background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2013/images/bullet3.png") 3px 3px no-repeat;}
+.menuitem a:hover {text-decoration:underline;}
+.menuitem a.aktif {font-family: 'gotham_narrowmedium';}
+
+.slogan {left:720px; top:50px;}
+.slide {width:100%;}
+.slidecontainerdiv img {position:absolute; display:none;}
+.slidecontainerdiv img:first-child {display:block;}
+
+.cvtext {background:#ededed; padding:5px; width:720px; font-family: 'gotham_narrowbook'; font-size:12px; color:#555759; display:none; position:absolute; top:20px; left:20px;}
+.cvtext strong {font-family: 'gotham_narrowmedium'; font-weight:normal;}
+
+.cvtext2 {background:#ededed; padding:5px; width:296px; font-family: 'gotham_narrowbook'; font-size:12px; color:#555759; display:none; position:absolute; top:20px; left:20px; border:1px solid #555759;}
+.cvtext strong {font-family: 'gotham_narrowmedium'; font-weight:normal;}
+
+a {outline:0;}
+a:* {outline:0;}
+

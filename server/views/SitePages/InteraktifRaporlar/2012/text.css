@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import "https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2012/fonts/stylesheet.css"; /*add hinting, remove kerning, turkish, Macroman, (typo, math, diacritical disindakiler secili) DIN & Myriad*/
+/*
+font-family: 'gotham_narrowbold';
+font-family: 'gotham_narrowbook';
+font-family: 'gotham_narrowmedium';
+font-family: 'bookman_old_stylebold';
+font-family: 'tondoregular';
+*/
+body {
+	margin:0px; padding:0px;
+	background:#EDEDED url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2012/images/bg-main.png") top repeat-x;
+	font-family: 'gotham_narrowbook'; font-size:13px;
+	color:#555759;
+}
+
+*:focus {outline: 0;}
+form {display:inline;}
+img {border:none;}
+table, td {border-collapse:collapse;}
+p {margin: 0px 0px 10px 0px;}
+
+.kirmizi {color:#D20A11;}
+.turuncu {color:#F6921E;}
+.mavi {color:#00BFF2;}
+.grizemin {color:#EDEDED;}
+.griyazi {color:#555759;}
+.baslik {color:#555759; font-size:20px; font-family: 'gotham_narrowbold';}
+.footnote {font-size:11px; color:#999;}
+.solhilite {width:235px; position:absolute; left:-260px; font-family: 'bookman_old_stylebold'; font-size:18px; color:#000; line-height:19px;}
+.solhilite strong {color:#D20A11!important; font-weight:normal!important; font-family: 'bookman_old_stylebold'!important;}
+a.pdf {background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2012/images/pdf.png") no-repeat 0px 0px; padding-left:20px; padding-bottom:5px;}
+
+.tablo {width:100%;}
+.tablo td {border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:3px;}
+.tablo th {border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:3px; font-family: 'gotham_narrowmedium'; font-weight:normal;}
+.tablo th, .tablo th strong {xcolor:#E9294E!important; text-align:inherit;}
+.tablo td strong {color:#000!important;}
+.tablo p {margin:0px; padding:0px;}
+
+#tepe {width:980px; height:140px; background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2012/images/bg-tepe.png"); margin:0 auto; position:relative;}
+#logo {position:absolute; top:22px; left:0px;}
+#raporismi {color:#555759; font-size:24px; font-family: 'gotham_narrowbook'; position:absolute; text-align:right; width:400px; left:580px; top:50px;}
+#menuclosetrigger {position:absolute; width:980px; height:95px; top:0px; left:0px;}
+#yataymenu {position:absolute; width:980px; height:30px; left:0px; top:95px; clear:both;}
+#yataymenu a {
+	margin:0 20px 0 0; display:block; padding:5px 10px 13px 22px; float:left;
+	color:#555759; font-family: 'gotham_narrowbook'; font-size:13px; text-decoration:none;
+	background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2012/images/bullet1.png") 3px 5px no-repeat;
+}
+#yataymenu a:hover, #yataymenu a.aktif {background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2012/images/bullet2.png") -14px 2px no-repeat;}
+#icerik {width:980px; margin:0 auto; padding-top:5px;}
+#leftpanel {width:235px; margin:0 25px 0 0; float:left; background:#CCC;}
+#midpanel {margin-left:260px; position:relative; min-height:400px;}
+#midpanel strong {font-family: 'gotham_narrowmedium'; font-weight:normal; color:#000;}
+#midpanel .kirmizi {font-family: 'gotham_narrowmedium'; font-weight:normal; color:#D20A11;}
+#midpanel ul {margin:0px; padding:0px 0 0 13px;}
+ul.marjinli {margin:10px 0 10px 0!important;}
+#footer {width:980px; margin:0 auto; border-top:1px solid #aaa; padding-top:5px; margin-top:25px;}
+#footer a {color:#555759; text-decoration:none;}
+#footer a:hover {color:#000;}
+
+#popupmenu {width:980px; height:300px; background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2012/images/bg-pop.png"); position:absolute; z-index:50; display:none; top:127px; left:0px;}
+.menuwrapper {width:500px; position:absolute; display:none; top:15px;}
+#wrapper3 {width:480px;}
+.menuitem a {display:block; padding:1px 0px 2px 22px; color:#fff; font-family: 'gotham_narrowbook'; font-size:13px; text-decoration:none; background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2012/images/bullet3.png") 3px 3px no-repeat;}
+.menuitem a:hover {text-decoration:underline;}
+.menuitem a.aktif {font-family: 'gotham_narrowmedium';}
+
+.slogan {left:720px; top:50px;}
+.slide {width:100%;}
+.slidecontainerdiv img {position:absolute; display:none;}
+.slidecontainerdiv img:first-child {display:block;}
+
+.cvtext {background:#ededed; padding:5px; width:700px; font-family: 'gotham_narrowbook'; font-size:12px; color:#555759; display:none; position:absolute; top:20px; left:20px;}
+.cvtext strong {font-family: 'gotham_narrowmedium'; font-weight:normal;}
+
+.cvtext2 {background:#ededed; padding:5px; width:296px; font-family: 'gotham_narrowbook'; font-size:12px; color:#555759; display:none; position:absolute; top:20px; left:20px; border:1px solid #555759;}
+.cvtext strong {font-family: 'gotham_narrowmedium'; font-weight:normal;}
+
+

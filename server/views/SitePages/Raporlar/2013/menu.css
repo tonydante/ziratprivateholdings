@@ -1,0 +1,45 @@
+#row0 {height:71px; position:relative; background:#fff;}
+#row1 {height:71px; position:relative; background:#fff;}
+#row3 {height:71px; position:relative; background:#fff;}
+#row6 {height:71px; position:relative; background:#fff;}
+
+#yataymenu a {display:block; text-align:center; text-decoration:none; font-size:14px; font-family: 'gotham_narrowbook'; line-height:15px;}
+
+#m1 {position:absolute; left:  0px; z-index:106; top:0px;}
+#m2 {position:absolute; left:115px; z-index:105; top:0px;}
+#m3 {position:absolute; left:271px; z-index:104; top:0px;}
+#m4 {position:absolute; left:421px; z-index:103; top:0px;}
+#m5 {position:absolute; left:569px; z-index:102; top:0px;}
+#m6 {position:absolute; left:722px; z-index:101; top:0px;}
+
+#n1 {position:absolute; left:  0px; z-index:106; top:0px;}
+#n2 {position:absolute; left:115px; z-index:105; top:0px;}
+#n3 {position:absolute; left:271px; z-index:104; top:0px;}
+#n4 {position:absolute; left:421px; z-index:103; top:0px;}
+#n5 {position:absolute; left:569px; z-index:102; top:0px;}
+
+#o3 {position:absolute; left:271px; z-index:104; top:0px;}
+#o4 {position:absolute; left:421px; z-index:103; top:0px;}
+#o5 {position:absolute; left:569px; z-index:102; top:0px;}
+
+#p3 {position:absolute; left:271px; z-index:104; top:0px;}
+#p4 {position:absolute; left:421px; z-index:103; top:0px;}
+#p5 {position:absolute; left:569px; z-index:102; top:0px;}
+#p6 {position:absolute; left:722px; z-index:101; top:0px;}
+
+#w2 {position:absolute; left:115px; z-index:105; top:0px; width:116px; height:53px; padding:19px 35px 0 80px; background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/c2w.png");}
+#w3 {position:absolute; left:271px; z-index:105; top:0px; width:116px; height:53px; padding:19px 35px 0 80px; background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/c2w.png");}
+
+.b1 {width:187px; height:53px; padding:19px  0px 0  0px; background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/b1.png"); color:#55565A;} /*187x73*/
+.b2 {width:116px; height:53px; padding:19px 35px 0 80px; background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/b2.png"); color:#55565A;} /*231x73*/
+.b1:hover, .b1.aktif  {background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/b1b.png"); color:#fff;}
+.b2:hover, .b2.aktif  {background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/b2b.png"); color:#fff;}
+
+.c1 {width:187px; height:53px; padding:19px  0px 0  0px; background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/b1b.png"); color:#fff;} /*187x73*/
+.c2 {width:116px; height:53px; padding:19px 35px 0 80px; background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/b2b.png"); color:#fff;} /*231x73*/
+.c1:hover, .c1.aktif  {background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/c1b.png"); color:#fff;}
+.c2:hover, .c2.aktif  {background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2013/images/c2b.png"); color:#fff;}
+
+.satir1 {height:47px; padding-top:26px;}/* tek satır */
+.satir3 {height:59px; padding-top:14px;}/* üç satır */
+

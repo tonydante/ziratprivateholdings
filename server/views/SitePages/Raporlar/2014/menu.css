@@ -1,0 +1,36 @@
+#yataymenu {padding:0px 0px 0px 0px; margin:0 auto;}
+
+#row0 {position:relative; display:table; width:100%;}
+#row0 div {display:table-cell; vertical-align:middle; text-align:center; height:50px; min-width:80px;}
+#row0 a {
+	text-align:center; text-decoration:none; font-size:13px; font-family: 'gotham_narrowbook';
+	line-height:13px; color:#555559; vertical-align:middle; display:block; padding:18px 0 17px 0; height:50px;
+}
+#row0 a:hover, #row0 a.aktif {background:#BFBBBC; color:#000;}
+
+#row0 div:hover {xbackground:#000;}
+
+#sub1, #sub2, #sub3, #sub6 {display:none;}
+
+#altmenu {
+	display:none;
+	position:absolute;
+	width:100%;
+	z-index:50;
+	background:#BFBBBC;
+	min-height:300px;
+	border-bottom:16px solid #56565A;
+}
+
+#sub1 {position:absolute; left:30px; top:30px;}
+#sub2 {position:absolute; left:105px; top:30px;}
+#sub3 {position:absolute; left:388px; top:30px;}
+#sub6 {position:absolute; left:900px; top:30px;}
+
+.submenu {min-width:370px;}
+.sub-title {color:#000; font-size:24px; font-family: 'gotham_narrowlight'; border-bottom:1px dashed #555559; padding-bottom:5px; margin-bottom:10px;}
+.submenu a {color:#000; font-size:17px; font-family: 'gotham_narrowlight'; border-bottom:1px dashed #555559; display:block; text-decoration:none; padding:5px 0 5px 0;}
+.submenu a:after {content:''; position:absolute; right:0px; background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2014/images/sagok.png") right center no-repeat; width:17px; height:21px;}
+.submenu a:hover, .submenu a.aktif {color:#fff;}
+
+.panelmetin .aktif {text-decoration:underline;}

@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import "https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2016/fonts/stylesheet.css";
+@import "https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2016/reset.css";
+/*
+font-family: 'gotham_narrowlight';
+font-family: 'gotham_narrowbold';
+font-family: 'gotham_narrowbook';
+font-family: 'gotham_narrowmedium';
+font-family: 'bookman_old_stylebold';
+font-family: 'tondoregular';
+*/
+body {
+	margin:0px; padding:0px;
+	Xbackground:#4C4C4C;
+	font-family: 'gotham_narrowbook'; font-size:13px;
+	color:#666;
+}
+
+*:focus {outline: 0;}
+* {outline: 0;}
+form {display:inline;}
+img {border:none;}
+sub, sup {font-size:80%; line-height:0; position: relative; vertical-align: baseline;}
+sup {top:-0.3em;}
+sub {bottom:-0.3em;}
+table, td {border-collapse:collapse;}
+
+table {width:100%;}
+table td {border-top:1px solid #231F20; border-bottom:1px solid #231F20; padding:3px;}
+table .th {font-family: 'gotham_narrowmedium'; color:#000;}
+.noborder, .noborder td, .noborder th {border:none;}
+
+* {box-sizing:border-box;}
+
+.header {height:130px; position:relative;}
+.content {width:1280px; margin:0 auto; background:#fff; position:relative;}
+.footer {zposition:fixed; bottom:0px; z-index:900; background:#fff; width:100%; xheight:20px; padding:5px 0 20px 0; font-size:12px;}
+.footer a {color:#000; text-decoration:none;}
+.container {}
+.sol {width:710px; padding-top:40px; padding-left:0px; font-size:16px;}
+.sag {float:right; position:relative; width:240px; padding-top:40px;}
+.h250 {min-height:250px; width:1000px;}
+.w1000 {width: 1000px;}
+
+
+.footer .navi {border-top:2px solid #000; padding-top:5px; width:1000px; margin-bottom:30px;}
+.footer .navi a {
+	width:246px; height:46px; background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2016/images/m6.png") no-repeat; display:block; float:left;color:#000!important; margin-right:5px;
+	font-family:'gotham_narrowmedium'; text-decoration:none; font-size:13px; line-height:13px; text-align:center; padding-top:17px;
+}
+.footer .navi a:last-child {margin:0px;}
+#f2, #f3 {padding-top:10px;}
+
+#bodycontainer {Xmargin-top:40px; padding-bottom:75px;}
+
+.logo {position:absolute; top:30px; left:70px; z-index:3000;}
+.title {position:absolute; top:55px; width:100%; text-align:center; font-family: 'gotham_narrowbook'; font-size:23px; color:#fff;}
+.navbox {position:absolute; top:50px; width:100%; text-align:right; padding-right:70px; color:#fff; font-size:16px;}
+.navbox a {font-family: 'gotham_narrowbook'; font-size:18px; color:#fff; display:inline-block; margin-left:5px; text-decoration:none; 	vertical-align:middle;}
+
+.kirmizi, .kirmizi strong {color:#E42312!important;}
+.baslik {color:#E42312; font-family: 'gotham_narrowmedium'; font-size:26px; margin-bottom:20px; padding:30px 0px 20px 0px;; text-align:left; xbackground:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2016/images/redarrow.png") bottom center no-repeat;}
+.content h1 {color:#000; font-family: 'gotham_narrowmedium'; font-size:26px; line-height:120%; margin:20px 0 20px 0; text-align:left;} /* Narrow degil */
+.sol h1 {color:#000; font-family: 'gotham_narrowbold'; font-size:22px; line-height:120%; margin:20px 0 20px 0;} /* Narrow degil */
+.sol h1:first-child {margin-top:0px;}
+.sol h3 {color:#E42312; font-family: 'gotham_narrowbook'; font-size:20px; margin-bottom:20px;}
+.sol h4 {color:#545759; font-family: 'gotham_narrowbold'; font-size:30px; margin-bottom:35px; padding-bottom:5px; border-bottom:1px solid #444; width:280px;}
+.sol .XXXh4b {font-size:13px; width:280px; color:#231F20; font-family: 'gotham_narrowmedium'; margin-bottom:25px;}
+.sol strong {font-family: 'gotham_narrowmedium'; font-weight:normal; color:#000;}
+.sol p {line-height:130%; margin-bottom:15px;}
+.sag h1 {color:#000; font-family: 'gotham_narrowmedium'; font-size:22px; line-height:120%; margin:20px 0 20px 0; text-align:left;} /* Narrow degil */
+.content ul {margin:0px 0px 15px 0px; padding:0px 0px 0px 30px; list-style-position:inside; list-style:disc;}
+.content li {margin-bottom:6px; line-height:120%;}
+.content ol {margin:0px 0px 15px 0px; padding:0px 0px 0px 30px; list-style-position:outside; list-style-type:decimal; display: block;}
+.dipnot {font-size:11px; color:#999;}
+
+h2 {
+	position:absolute; left:760px; width:240px;
+	border-top:1px solid #000; border-bottom:1px solid #000;
+	font-family: 'gotham_narrowbook'; color:#666; font-size:18px; padding:5px 0 10px 0;
+}
+h2 strong {display:block; margin:10px 0 20px 0; color:#E42312!important; font-family: 'gotham_narrowbold'; font-size:40px;}
+h2 img {width:100%; margin:5px 0 5px 0;}
+table p {margin:5px 0 5px 0!important; padding:0px!important; line-height:110%;}
+
+
+.gra {width:100%;}
+.saga {position:absolute; left:900px; width:320px;}
+.saga h4 {margin:25px 0 5px 0; width:100%;}
+.saga p {font-size:13px; color:#231F20; font-family: 'gotham_narrowmedium'; margin-bottom:25px; margin-top:0px;}
+.font18 {font-size:18px;}
+.font20 {font-size:20px;}
+a.pdf {background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2016/images/pdf.png") no-repeat 0px 0px; padding-left:20px; padding-bottom:5px;}
+
+.cvtext {
+	xbackground-color:rgba(0,0,0,0.5); xpadding:5px 10px 5px 10px; width:460px; 
+	font-family: 'gotham_narrowbook'; font-size:16px; line-height:130%;
+	display:none; position:absolute; top:100px; left:740px; z-index:10; xmin-height:70px;
+}
+.cvtext strong {font-family: 'gotham_narrowmedium'; font-weight:normal;}
+.cvtext p:first-child {margin-bottom:10px;}
+
+.clearfix:after {visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+#arrowdown {position:fixed; bottom:20px; width:100%; text-align:center; xbackground:#FC0; z-index:550;}
+
+

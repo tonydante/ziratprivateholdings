@@ -1,0 +1,36 @@
+.index1 {width:1280px; background:#fff; margin:0 auto; padding:30px 0 30px 0; text-align:center; color:#E2231A; font-size:42px; font-family: 'gotham_narrowbook';}
+.index1 strong {font-weight:normal; font-family: 'gotham_narrowbold';}
+.index2 {width:1280px; margin:0 auto; text-align:center; height:630px;}
+.index3 {width:1280px; background:#A83338; margin:0 auto; padding:20px 0 20px 0; text-align:center; color:#fff; font-size:42px; font-family: 'gotham_narrowbook'; line-height:43px;}
+.index3 strong {font-weight:normal; font-family: 'gotham_narrowbold';}
+.index4 {width:1280px; margin:0 auto; text-align:center; height:334px;}
+.index5 {width:1280px; margin:0 auto; padding:30px 0 30px 40px;}
+.panel {width:370px; float:left; margin-right:45px;}
+.panel strong {font-weight:normal; font-family: 'gotham_narrowmedium';}
+.panelbaslik {color:#E2231A; font-size:22px; line-height:22px; font-family: 'gotham_narrowbook'; padding-bottom:25px; border-bottom:1px dashed #555559;}
+.panelbaslik2 {color:#555559; font-size:77px; line-height:77px; font-family: 'gotham_narrowbold'; padding-bottom:0px; border-bottom:1px dashed #555559;}
+.panelbaslik3 {color:#fff; font-size:24px; line-height:24px; font-family: 'gotham_narrowlight'; padding-bottom:10px; border-bottom:1px dashed #fff;}
+.panelbaslik3 a {text-decoration:none; color:inherit; font-family:inherit; font-size:inherit;}
+.panelbaslik4 {color:#A83338; font-size:30px; line-height:30px; font-family: 'gotham_narrowbold'; padding-bottom:10px; border-bottom:1px dashed #555559;}
+
+.panelfoto {margin:10px 0 10px 0; text-align:center; position:relative;}
+#panel3 .panelfoto {margin:25px 0 25px 0;}
+.panelisim {position:absolute; bottom:3px; width:100%; background:rgba(221, 221, 221, 0.8);; text-align:left; padding:2px; font-size:13px; font-family: 'gotham_narrowmedium';}
+.panelmetin {
+	border-bottom:1px dashed #555559; border-top:1px dashed #555559; color:#555559; min-height:205px;
+	font-size:24px; line-height:25px; font-family: 'gotham_narrowbook'; padding:10px 0 10px 0; position:relative;
+}
+.panelmetin2 {
+	border-top:1px dashed #555559; color:#555559; min-height:125px;
+	font-size:23px; line-height:24px; font-family: 'gotham_narrowbook'; padding:10px 0 10px 0;
+}
+.panelmetin2 strong {font-weight:normal; font-family: 'gotham_narrowmedium'; font-size:30px; line-height:32px;}
+
+.morelink {display:block; position:absolute; bottom:10px; text-align:right; right:0px;}
+.morelink2 {display:block; position:absolute; bottom:10px; text-align:left; right:0px; width:100%; color:#E2231A; font-size:18px; font-family: 'gotham_narrowbook'; text-decoration:none;}
+.morelink2 img {right:0px; position:absolute;}
+.indexbtm {color:#fff; text-decoration:none; font-size:17px; font-family: 'gotham_narrowlight';}
+.indexbtm:hover {text-decoration:underline;}
+.index5:after {content:""; clear:both; display:block;}
+
+.arrow {position:fixed; bottom:15px; width:100%; text-align:center; xbackground:yellow; z-index:550;}

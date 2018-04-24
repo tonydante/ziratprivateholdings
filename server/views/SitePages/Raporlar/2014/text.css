@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import "https://www.ziraatbank.com.tr/SitePages/Raporlar/2014/fonts/stylesheet.css";
+/*
+font-family: 'gotham_narrowbold';
+font-family: 'gotham_narrowbook';
+font-family: 'gotham_narrowlight';
+font-family: 'gotham_narrowmedium';
+font-family: 'bookman_old_stylebold';
+font-family: 'tondoregular';
+*/
+body {
+	margin:0px; padding:0px;
+	background:#fff;
+	font-family: 'gotham_narrowlight'; font-size:15px;
+	color:#000;
+}
+
+* {box-sizing: border-box;}
+*:focus {outline: 0;}
+form {display:inline;}
+img {border:none; margin:0px;}
+table, td {border-collapse:collapse;}
+p {margin: 0px 0px 10px 0px;}
+sup, sub {vertical-align: baseline; position: relative; top: -0.4em;}
+sub {top: 0.4em;}
+
+.tablo {width:100%;}
+.tablo td {border:1px solid #ccc; padding:3px;}
+.tablo th {border:1px solid #333; color:#D20A11; padding:3px; font-weight:normal; font-family: 'gotham_narrowlight'; background:#ccc;}
+.tablo th, .tablo th strong {xcolor:#E9294E!important; text-align:inherit; font-weight:normal!important;}
+.tablo td strong {color:#inherit!important; font-weight:normal; font-family: 'gotham_narrowbold';}
+.tablo p {margin:0px; padding:0px;}
+.tablo tr th:first-child, .tablo tr td:first-child {border-left:none!important;}
+.tablo tr th:last-child, .tablo tr td:last-child {border-right:none!important;}
+.graycell {background:#ddd;}
+.dipnot {font-size:12px; color:#666;}
+.kirmizi {color:#D71920!important;}
+.siyah {color:#000!important;}
+
+.tepe1 {width:1280px; height:112px; border-top:10px solid #56565A; position:relative; margin:0 auto;}
+.logo {position:absolute; top:25px; left:40px;}
+.tepebaslik {position:absolute; left:0px; right:0px; top:45px; text-align:center; font-family: 'gotham_narrowmedium'; font-size:20px; color:#555559;}
+.social {text-align:right; position:absolute; top:40px; right:40px; display: table;}
+.social a {padding-left:15px; display:table-cell; vertical-align: middle; color:#555559; text-decoration:none; font-family: 'gotham_narrowbook'; font-size:14px;}
+.footer {width:1280px; background:#fff; color:#555559; font-family: 'gotham_narrowbook'; font-size:14px; margin:0 auto; padding:20px 0 30px 40px;}
+.footer a {color:#555559;}
+
+.menu {width:1280px; max-width:1280px; height:50px; background:#DDDADB; margin:0 auto; position:relative; z-index:1000;}
+
+.metin {width:1280px; margin:0 auto; padding:50px 455px 40px 40px; font-family: 'gotham_narrowlight'; font-size:15px; line-height:19px; color:#000; position:relative;}
+.metin h1 {font-weight:normal; font-family: 'gotham_narrowmedium'; font-size:18px; line-height:20px; color:#A83338; margin:0px; padding:0px;}
+.metin strong {font-weight:normal; font-family: 'gotham_narrowmedium';}
+.metin ul, .metin ol {margin:0px; padding:0px 0 15px 13px;}
+.genis {padding-right:40px;}
+.metin a {color:#36C;}
+
+.title {font-family: 'gotham_narrowlight'; font-size:28px; color:#A83338; padding:0px; margin:0 0 50px 0;}
+h2 {font-family: 'gotham_narrowlight'; font-size:28px; line-height:30px; color:#555559; font-weight:normal; margin:0px 0 20px 0;}
+h2 strong {font-family: 'gotham_narrowbold'; font-size:32px; color:#555559; font-weight:normal;}
+h2 .bg-acikgri {padding:10px;}
+.hilite2 {font-family: 'gotham_narrowlight'; font-size:20px; line-height:22px; color:#000;}
+.sag {width:370px; position:absolute; right:40px;}
+.cizgi {border-top:1px dashed #555559; padding-top:10px;}
+.kirmizi {color:#A83338;}
+
+h6, h7 {
+	font-family: 'gotham_narrowlight'; font-size:15px; line-height:15px; color:#A83338; font-weight:normal; margin:15px 0 15px 0;
+	border-top:1px dashed #555559; border-bottom:1px dashed #555559; padding:4px 0 4px 35px; position:relative;
+}
+h6 a, h7 a {color:inherit; text-decoration:none;}
+h6:before, h7:before {content:''; position:absolute; left:0px; background:url("images/sagok3.png") left center no-repeat; width:30px; height:17px;}
+
+h7 {display:block;}
+
+.kutular:after {content:""; clear:both; display:block;}
+.kutu {
+	width:225px; height:150px; border:1px dashed #555559; padding:10px; 
+	float:left; margin:0 15px 15px 0; font-size:20px; line-height:25px;
+	background-size:contain; background-repeat: no-repeat; background-position: center;
+}
+.darsatir {line-height:20px; padding-top:5px;}
+.noborder {border:none;}
+.font15, .font15 strong  {font-size:15px!important; line-height:17px;}
+.w100 {width:100%;}
+
+img.floatleft {float:left; margin:0 10px 10px 0;}
+div.floatleft {float:left;}
+
+.bg-acikgri {background:#eee;}
+.bg-koyugri {background:#55565A; color:#fff;}
+
+.ozeltablo td {height:61px;}
+.ozeltablo .col1 {background:url("https://www.ziraatbank.com.tr/SitePages/Raporlar/2014/images/i2.png") no-repeat;}
+.ozeltablo .col2 {background: #eee; color:#55565A; padding:4px; font-size:14px; font-family: 'gotham_narrowbook'; border-top:1px dashed #555559; border-bottom:1px dashed #555559;}
+.ozeltablo .col3 {background: #fff; color:#D71920; padding:4px; font-size:14px; font-family: 'gotham_narrowbook'; border-top:1px dashed #555559; border-bottom:1px dashed #555559;}
+
+.superscript { position: relative; top: -0.0em; font-size: 50%; }

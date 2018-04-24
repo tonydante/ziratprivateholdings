@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import "https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2015/fonts/stylesheet.css";
+@import "https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2015/reset.css";
+/*
+font-family: 'gotham_narrowlight';
+font-family: 'gotham_narrowbold';
+font-family: 'gotham_narrowbook';
+font-family: 'gotham_narrowmedium';
+font-family: 'bookman_old_stylebold';
+font-family: 'tondoregular';
+*/
+body {
+	margin:0px; padding:0px;
+	Xbackground:#4C4C4C;
+	font-family: 'gotham_narrowbook'; font-size:13px;
+	color:#666;
+}
+
+*:focus {outline: 0;}
+form {display:inline;}
+img {border:none;}
+sub, sup {font-size:80%; line-height:0; position: relative; vertical-align: baseline;}
+sup {top:-0.3em;}
+sub {bottom:-0.3em;}
+table, td {border-collapse:collapse;}
+
+table {width:100%;}
+table td {border-top:1px solid #231F20; border-bottom:1px solid #231F20; padding:3px;}
+table .th {font-family: 'gotham_narrowmedium'; color:#000;}
+.noborder, .noborder td, .noborder th {border:none;}
+
+* {box-sizing:border-box;}
+
+.header {height:130px; position:relative;}
+.content {width:1280px; margin:0 auto; background:#fff; position:relative;}
+.footer {zposition:fixed; bottom:0px; z-index:900; background:#fff; width:100%; xheight:20px; padding:20px 0 20px 0; font-size:12px;}
+.footer a {color:#000; text-decoration:none;}
+.container {}
+.sol {float:left; position:relative; width:850px; padding-top:40px; padding-left:70px;}
+.sag {float:right; position:relative; width:325px; xpadding-bottom:50px;}
+.h250 {min-height:250px;}
+
+#bodycontainer {Xmargin-top:40px; padding-bottom:75px;}
+
+.logo {position:absolute; top:30px; left:70px; z-index:3000;}
+.title {position:absolute; top:55px; width:100%; text-align:center; font-family: 'gotham_narrowbook'; font-size:23px; color:#fff;}
+.navbox {position:absolute; top:50px; width:100%; text-align:right; padding-right:70px;}
+.navbox a {font-family: 'gotham_narrowbook'; font-size:18px; color:#fff; display:inline-block; margin-left:15px; text-decoration:none; 	vertical-align:middle;}
+
+.kirmizi, .kirmizi strong {color:#E42312!important;}
+.baslik {color:#E42312; font-family: 'gotham_narrowbold'; font-size:31px; margin-bottom:20px; padding-left:70px;}
+.sol h1 {color:#000; font-family: 'gotham_narrowbold'; font-size:22px; line-height:120%; margin:20px 0 20px 0;} /* Narrow degil */
+.sol h1:first-child {margin-top:0px;}
+.sol h2 {color:#000; font-family: 'gotham_narrowbold'; font-size:130%; margin:20px 0 20px 0; padding:0px; line-height:105%;}
+.sol h3 {color:#E42312; font-family: 'gotham_narrowbook'; font-size:20px; margin-bottom:20px;}
+.sol h4 {color:#545759; font-family: 'gotham_narrowbold'; font-size:30px; margin-bottom:35px; padding-bottom:5px; border-bottom:1px solid #444; width:280px;}
+.sol .XXXh4b {font-size:13px; width:280px; color:#231F20; font-family: 'gotham_narrowmedium'; margin-bottom:25px;}
+.sol strong {font-family: 'gotham_narrowmedium'; font-weight:normal; color:#000;}
+.sol p {line-height:130%; margin-bottom:15px;}
+.content ul {margin:0px 0px 15px 0px; padding:0px 0px 0px 30px; list-style-position:inside; list-style:disc;}
+.content li {margin-bottom:3px; line-height:120%;}
+.dipnot {font-size:11px; color:#999;}
+
+.gra {width:100%;}
+.saga {position:absolute; left:900px; width:320px;}
+.saga h4 {margin:25px 0 5px 0; width:100%;}
+.saga p {font-size:13px; color:#231F20; font-family: 'gotham_narrowmedium'; margin-bottom:25px; margin-top:0px;}
+.font18 {font-size:18px;}
+.font20 {font-size:20px;}
+a.pdf {background:url("https://www.ziraatbank.com.tr/SitePages/InteraktifRaporlar/2015/images/pdf.png") no-repeat 0px 0px; padding-left:20px; padding-bottom:5px;}
+
+.cvtext {background-color:rgba(0,0,0,0.5); padding:5px 10px 5px 10px; width:920px; font-family: 'gotham_narrowbook'; font-size:11px; color:#fff; 
+display:none; position:absolute; top:50px; left:20px; z-index:50; xmin-height:70px;}
+.cvtext strong {font-family: 'gotham_narrowmedium'; font-weight:normal;}
+.cvtext p:first-child {margin-bottom:10px;}
+
+.clearfix:after {visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+#arrowdown {position:fixed; bottom:20px; width:1340px; text-align:center; xbackground:yellow; z-index:550;}
+
